@@ -1,0 +1,22 @@
+
+.scroll-bar {
+    max-height: calc(100vh - 355px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    }
+      
+    .scroll-bar::-webkit-scrollbar {
+    display: none
+    }
+    thead{
+        position: sticky; top: 0; z-index: 1; 
+        background: cornflowerblue;
+    
+    }
+    .modal-backdrop.in { z-index: auto;}
+
+:host ::ng-deep .modal-backdrop {
+    z-index: 999 !important
+  }
+
+  
